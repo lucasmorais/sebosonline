@@ -1,0 +1,60 @@
+/*********************************************************************************************************************             
+														INPUT                   
+ *********************************************************************************************************************/
+input[type=text]{     
+    width:150px;
+	height: 25px;
+	font-size: 14px;
+	padding: 0px 10px 0px 10px;
+	-moz-border-radius: 5px; /* Para Firefox */
+	-webkit-border-radius: 5px; /*Para Safari e Chrome */
+	border-radius: 5px; /* Para Opera 10.5+*/
+	border:1px solid #777;
+}
+input[type=password]{     
+    width:150px;
+	height: 25px;
+	font-size: 14px;
+	padding: 0px 10px 0px 10px;
+	-moz-border-radius: 5px; /* Para Firefox */
+	-webkit-border-radius: 5px; /*Para Safari e Chrome */
+	border-radius: 5px; /* Para Opera 10.5+*/
+	border:1px solid #777;
+}
+textarea{
+	width:150px;
+	 font-size: 14px;
+	 padding: 0px 10px 0px 10px;
+	-moz-border-radius: 5px; /* Para Firefox */
+	-webkit-border-radius: 5px; /*Para Safari e Chrome */
+	border-radius: 5px; /* Para Opera 10.5+*/
+	border:1px solid #777;
+}
+
+
+
+
+
+
+
+
+label,  input {
+	display: block;
+	float: left;
+	margin-bottom: 5px;
+}
+
+label {	
+	text-align: right;
+	width: 100px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+fieldset {
+	border: solid 1px #000;
+}
+
+br {
+	clear: left;
+}

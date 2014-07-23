@@ -1,0 +1,408 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0 auto;
+	padding: 0 auto;
+}
+body{
+	background:#D9ECFF;
+}
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #555;
+}
+#container{
+	width:970px;
+	overflow:auto;
+	overflow:hidden;
+	background:#F7F7F7;
+	border:1px solid #DFDFDF;
+}
+a{
+	text-decoration: none;
+}
+
+#login{
+ 		border:1px solid #CCCCCC;  
+        width: 350px;
+        height: 310px;
+        left: 50%;
+        top:50%;
+		margin-left: 500px;
+        margin-top: 150px;
+		border-radius:15px;
+		-moz-border-radius:15px 15px 15px 15px;
+		-webkit-border-radius:15px 15px 15px 15px;
+}
+#painellogin1{
+		height:  80px;
+		 width: 350px;
+		background-color: #f5f5f5;
+		border-radius:15px 15px 0px 0px;
+		-moz-border-radius:15px 15px 0px 0px;
+		-webkit-border-radius:15px 15px 0px 0px;
+}
+#painellogin2{
+		height:  150px;
+		 width: 350px;
+		background-color: #FFF;
+}
+#painellogin3{
+		height:  80px;
+		width: 350px;
+		color: #858585;
+		background-color: #f5f5f5;
+		border-radius:0px 0px 15px 15px;
+		-moz-border-radius:0px 0px 15px 15px;
+		-webkit-border-radius:0px 0px 15px 15px;
+}
+
+#topo{
+		/*position: relative; */
+		top: 0; 
+		left: 0; 
+		/*z-index: 10; */
+		padding:1px; 
+		background-color: #FFF;
+		border:1px solid #CCCCCC;  
+		width:960px; 
+		height: 130px;
+}
+
+#cabecalho{
+		/*position: relative; */
+		top: 0; 
+		left: 0; 
+		/*z-index: 10; */
+		padding:2px; 
+		background-color: #666;
+		border:1px solid #CCCCCC;  
+		width:960px; 
+		height: 40px;
+}
+
+#rodape{
+		/*position: absolute;*/
+		bottom:0px;
+		color: #858585;
+		text-align: center;
+		background-color: #f5f5f5;
+		border:1px solid #CCCCCC;  
+		width:960px; 
+		height: 30px;
+		float:left;
+}
+
+
+#menu {
+	/*position: relative; */
+	width: 200px;
+	border-style: solid solid none solid;
+	border-color: #94AA74;
+	border-size: 1px;
+	border-width: 1px;
+	margin: 10px 10px;;
+	float:left;
+}
+	
+#menu li a {
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	text-decoration: none;
+}	
+	
+#menu li a:link, #menu li a:visited {
+	
+	display: block;
+	background: url(../imagens/menu1.gif);
+	padding: 8px 0 0 10px;
+}
+	
+#menu li a:hover {
+	
+	background: url(../imagens/menu1.gif) 0 -32px;
+	padding: 8px 0 0 10px;
+}
+	
+#menu li a:active {
+	
+	background: url(../imagens/menu1.gif) 0 -64px;
+	padding: 8px 0 0 10px;
+}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#categoria-menu{
+	display: block;
+	background: url(../imagens/menu1.gif);
+	padding: 8px 0 0 10px;
+}
+
+
+
+
+
+
+#alinhamento{
+		padding: 10px;
+}
+
+.conteudo{
+		float: right;
+		width: 960px;
+
+
+		
+}
+
+/*********************************************************************************************************************
+                 
+				                   PÁGINAS INTERNAS
+                     
+ *********************************************************************************************************************/
+#geral{
+	width:750px;
+	margin-right:5px;
+	margin-top:-550px;
+	border:1px solid #DFDFDF;
+	background:#F5F5F5;
+	border-radius:5px;
+	height:auto;
+	float:right;
+	padding:5px;
+}
+#geral #formulario{
+	float:right;
+	width:735px;
+	margin-right:4px;
+	margin-top:10px;
+	background:#CFCFCF;
+}
+#geral #formulario label{
+	display:block;
+	margin:12px;
+}
+#geral #formulario input{
+	display:block;
+	margin:8px;
+	width:480px;
+	height:33px;
+	border-radius:5px;
+	border:1px solid #F00;
+	
+}
+
+#geral #formulario select{
+	display:block;
+	margin:8px;
+	width:280px;
+	height:33px;
+	border-radius:5px;
+	border:1px solid #F00;
+}
+
+
+#geral #formulario input:hover{
+	display:block;
+	margin:8px;
+	width:480px;
+	height:33px;
+	border:1px solid #FF7171;
+}
+
+#geral #formulario #btn1{
+	width:140px;
+	height:35px;
+	margin:10px;
+	float:left;
+	background:#3C9DFF;
+	border-radius:5px;
+	cursor:pointer;
+}
+#geral #formulario #btn1:hover{
+	background:#8AC5FF;
+}
+
+#geral #add-fotos{
+	
+	float:right;
+	width:725px;
+	margin-right:4px;
+	min-height:90px;
+	height:auto;
+	margin-top:30px;
+	background:#E0E0E0;
+	padding:5px;
+	font-size:14px;
+	
+}
+
+#geral #add-fotos #env-foto{
+	float:left;
+	width:190x;
+	margin:10px 20px 20px 90px;
+	
+	
+}
+
+#geral #add-fotos #btn1{
+	width:140px;
+	height:35px;
+	margin:30px;
+	float:left;
+	background:#3C9DFF;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+#listar-fotos{
+	 width:725px;
+	 float:left;
+	 margin:10px;
+	 padding:4px;
+	 background:#FFF;
+	 border:1px solid #F00;
+	 text-align:left;  
+ }
+ .miniatura{
+	 width:170px;
+	 height:120px;
+	 float:left;
+	 margin:5px;
+	 background:#E1F0FF; 
+ }
+ 
+ .miniatura img{
+	 float:left;
+	 width:140px;
+	 height:100px;
+	 margin-top:2px;
+	 margin-left:8px;
+ }
+ 
+ button[name="apaga-foto"]{
+	 float:right;
+	 background:#F00;
+	 width:20px;
+	 height:20px;
+ }
+ 
+ button[name="apaga-foto"]:hover{
+	 background:#CE0000;
+	 cursor:pointer;
+	 color:#FFF;
+	 font-size:14px;
+ }
+ 
+ button[name="apaga-galeria"]{
+	 float:right;
+	 background:#FF8A8A;
+	 width:140px;
+	 height:30px;
+	 border-radius:5px;
+ }
+ 
+ button[name="apaga-galeria"]:hover{
+	 background:#F00;
+	 cursor:pointer;
+ }
+ #btn-galeria{
+	 float:right;
+	 margin:10px;
+	 width:100px;
+	 height:30px;
+	 border-radius:5px;
+	 background:#75BAFF;
+ }
+ 
+ #btn-galeria:hover{
+	 background:#AED7FF;
+	 cursor:pointer;
+ }
+ 
+ /*****************************************************************************************************************
+        BANNER DO PAINEL
+ *****************************************************************************************************************/
+ #cabecalho-banner{
+	float:right;
+	width:725px;
+	margin-right:4px;
+	height:auto;
+	margin-top:30px;
+	background:#CFF;
+	padding:5px;
+	font-size:14px; 
+ }
+ #cabecalho-banner #formulario{
+	float:right;
+	width:710px;
+	margin-right:4px;
+	height:auto;
+	margin-top:10px;
+	background:#E9E9E9;
+	padding:5px;
+	font-size:14px;  
+ }
+ #cabecalho-banner #formulario select{
+	
+	width:100px;
+	height:30px;
+
+ }
+ #corpo-banner{
+	float:right;
+	width:725px;
+	margin-right:4px;
+	height:auto;
+	margin-top:10px;
+	background:#DDD;
+	padding:5px;
+	font-size:14px;  
+ }
+ 
+ #corpo-banner .banner-item{
+	float:right;
+	width:700px;
+	margin-right:4px;
+	height:300px;
+	margin-top:10px;
+	background:#DDD;
+	padding:5px;
+	margin-bottom:6px;
+ }
+ #corpo-banner .banner-item a img{
+	float:right;
+	width:700px;
+	margin-right:4px;
+	height:300px;
+	margin-top:10px;
+	background:#DDD;
+	padding:5px; 
+	margin-bottom:6px;
+ }
+ #corpo-banner .banner-item  img{
+	float:right;
+	width:700px;
+	margin-right:4px;
+	height:300px;
+	margin-top:10px;
+	background:#DDD;
+	padding:5px; 
+	margin-bottom:6px;
+ }
+ 
+ /*****************************************************************************************************************
+        LISTAR VIDEO
+ *****************************************************************************************************************/
+#listar{
+	float: left;
+}
+#clear{
+	clear: both;	
+}
+ 
